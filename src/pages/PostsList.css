@@ -1,0 +1,70 @@
+.posts-header {
+  border: 2px solid #000;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+.posts-header h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #222;
+}
+
+.posts-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.posts-actions input {
+  padding: 6px 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.posts-actions button {
+  padding: 7px 14px;
+  font-size: 15px;
+  font-weight: 600;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.posts-actions button:hover {
+  background: #0069d9;
+}
+
+.posts-actions select {
+  padding: 6px 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input,select{
+  padding: 10px;
+  margin: 1vw;
+}
+
+button {
+  padding: 10px;
+}
+
+.nav2{
+   display: "flex";
+  justifyContent: "space-between";
+  padding: "10px";
+  marginBottom: "20px";
+  alignItems : 'center';
+
+}

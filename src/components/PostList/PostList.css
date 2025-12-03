@@ -1,0 +1,30 @@
+
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.no-posts {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.no-posts p {
+  font-size: 18px;
+  color: #555;
+  font-weight: 500;
+}
+
+.l{
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.l:hover{
+  background-color: gray;
+  color: white;
+}
