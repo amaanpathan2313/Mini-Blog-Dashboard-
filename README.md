@@ -9,26 +9,26 @@ Deployed demo: [https://miniblogapp01.netlify.app/](https://miniblogapp01.netlif
 
 ## About
 
-Mini Blog Dashboard is a single-page React application scaffolded with Vite. The UI is focused on blog management workflows — listing posts, viewing post details, and (commonly) creating posts from a dashboard-style interface. This repository contains the front-end source, a `public/` folder and Vite configuration for local development and deployment.
+Mini Blog Dashboard is a single-page React application scaffolded with Vite. The UI is focused on blog management workflows listing posts, viewing post details, and (commonly) creating posts from a dashboard-style interface. This repository contains the front-end source, a `public/` folder and Vite configuration for local development and deployment.
 
 ## Demo
 
-A live demo is available (Netlify): `https://miniblogapp01.netlify.app/` — check the deployed site to validate UI and behavior.
+A live demo is available (Netlify): `https://miniblogapp01.netlify.app/` check the deployed site to validate UI and behavior.
 
 ## Features
 
 * Post listing and detailed view.
 * Responsive layout suitable for desktop and tablet.
 * Vite-powered development server for fast HMR.
-* Simple deployment configuration for Netlify (netlify.toml included).
+* Simple deployment configuration for Netlify
 
 
 ## Tech stack
 
 * **Framework:** React (Vite template)
 * **Build tool:** Vite
-* **Languages:** JavaScript, HTML, CSS
-* **Deployment:** Netlify (site referenced in repo)
+* **Languages:** JavaScript, JSX , CSS
+* **Deployment:** Netlify 
 
 
 
@@ -123,11 +123,11 @@ npm run dev
 
 ## Available scripts
 
-These are the typical Vite scripts — confirm in `package.json` and update if different:
+These are the typical Vite scripts - confirm in `package.json` and update if different:
 
-* `npm run dev` — start dev server with HMR
-* `npm run build` — build production bundle
-* `npm run preview` — locally preview the production build
+* `npm run dev` - start dev server with HMR
+* `npm run build` - build production bundle
+* `npm run preview` - locally preview the production build
 
 ## Build & deploy
 
